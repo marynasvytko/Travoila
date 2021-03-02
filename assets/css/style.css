@@ -1,1 +1,250 @@
-*{margin:0;padding:0;box-sizing:border-box}footer,header,main{width:100%}.container{max-width:1132px;display:flex;justify-content:space-between;margin:0 auto}header{background:#F1F1F1;position:fixed}header .navigation{min-height:150px}header .navigation .nav_logo{margin-top:70px}header .navigation .nav_list{margin-top:72px}header .navigation .nav_list ul li{list-style-type:none;display:inline-block;padding-left:43px}header .navigation .nav_list ul li a{text-decoration:none;font-style:normal;font-weight:600;font-size:16px;line-height:22px;letter-spacing:0.01em;color:rgba(0,0,0,0.8);font-family:"Nunito Sans",sans-serif}header .navigation .nav_list .btn_nav{font-family:"Nunito Sans",sans-serif;font-style:normal;font-weight:600;font-size:12px;line-height:16px;text-transform:uppercase;letter-spacing:0.07em;color:#FFFFFF;background:linear-gradient(0deg,#FF6CB3,#FF6CB3),#51509C;border-radius:6px;padding:10px 33px}
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 25px;
+}
+
+
+/*HEADER*/
+
+.header__items {
+    background-color: #F1F1F1;
+    background-size: cover;
+}
+
+.header_content__items {
+    display: flex;
+    justify-content: space-between;
+    padding: 72px 0 72px 0;
+}
+
+.nav_list__items>a,
+.nav_list__items>div {
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 6px;
+    padding: 0 42px;
+}
+
+.nav_list__items>a {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0.01em;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.nav_list__items>div>a {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.07em;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    padding: 9px 33px;
+    background: linear-gradient(0deg, #FF6CB3, #FF6CB3), #51509C;
+    border-radius: 6px;
+    text-decoration: none;
+}
+
+
+/*Cari_Ticket*/
+
+.cari_ticket__items {
+    position: relative;
+    background-color: #F1F1F1;
+    padding-top: 70px;
+}
+
+.ticket_text>h2 {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 33px;
+    line-height: 44px;
+    letter-spacing: 0.03em;
+    color: #414064;
+}
+
+.ticket_text>p {
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 24px;
+    color: rgba(68, 68, 68, 0.7);
+    margin: 32px 0 14px 0;
+}
+
+.ticket_text>.cari-ticket__btn>a {
+    text-decoration: none;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    background: #FF6CB3;
+    border-radius: 16px;
+    padding: 10px 91px;
+}
+
+.ticket_text>.cari-ticket__btn {
+    padding: 14px 0 195px 0;
+}
+
+
+/*.cari_ticket__items>.ticket_img::after {
+    content: ' ';
+    position: absolute;
+    top: 0;
+    right: 20px;
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/img-cari_ticket2.png);
+    z-index: 1;
+}*/
+
+
+/* Fitur_Lengkap_dan_Mudah_Digunakan */
+
+.fitur_lengkap__items {
+    position: relative;
+    background-color: #FFF;
+    padding: 131px 0 181px 0;
+}
+
+.fitur_content__items>h3 {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 41px;
+    letter-spacing: 0.03em;
+    color: #414064;
+    text-align: center;
+    margin-bottom: 13px;
+}
+
+.fitur_content__items>p {
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 21px;
+    text-align: center;
+    color: rgba(68, 68, 68, 0.7);
+    text-align: center;
+    margin-bottom: 89px;
+}
+
+.fitur_list__items {
+    display: flex;
+    justify-content: space-between;
+}
+
+.fitur_wrap_item {
+    max-width: 330px;
+    text-align: center;
+}
+
+.fitur_wrap_item>h4 {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 31px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #414064;
+}
+
+.fitur_wrap_item>p {
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: rgba(68, 68, 68, 0.7);
+}
+
+
+/*Kenapa_Memilih_Kami*/
+
+.kenapa_memilih__items {
+    background: url(../img/img-kenapa-memilih-kami-fon.jpg) no-repeat;
+    background-size: cover;
+    padding: 107px 0 107px 0;
+}
+
+.kenapa_wrap__items {
+    display: flex;
+    justify-content: space-between;
+}
+
+.kenapa_content_items {
+    margin-top: 76px;
+    max-width: 483px;
+}
+
+.kenapa_content_items>h2 {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 55px;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    margin-bottom: 18px;
+}
+
+.kenapa_content_items>p {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+}
+
+.kenapa_list_items {
+    max-width: 561px;
+    background: #FFFFFF;
+    border-radius: 8px;
+    padding: 73px 0 73px 0;
+}
+
+.kenapa_list_items>ul {
+    list-style: none;
+    padding: 0;
+}
+
+.kenapa_list_items>ul>li {
+    padding: 0 0 0 44px;
+    margin: 0 0 26px 44px;
+    position: relative;
+}
+
+.kenapa_list_items>ul>li::after {
+    content: '';
+    position: absolute;
+    background: url(../img/icon/icon-done.svg) no-repeat;
+    width: 23px;
+    height: 22px;
+    margin-top: -11px;
+    top: 30%;
+    left: 0;
+}
