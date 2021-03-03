@@ -248,3 +248,86 @@
     top: 30%;
     left: 0;
 }
+
+
+/*Rekomendasi_Destinasi_Untuk_Anda*/
+
+.recomendasi_destinasi__items {
+    padding: 107px 0 107px 0;
+}
+
+.recomendasi_content__items>h3 {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 41px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #414064;
+    margin-bottom: 13px;
+}
+
+.recomendasi_content__items>p {
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 21px;
+    text-align: center;
+    color: rgba(68, 68, 68, 0.7);
+    margin-bottom: 31px;
+}
+
+.recomendasi_list__items {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/*.recomendasi_list__items :nth-child(1) {
+    
+}
+
+.recomendasi_list__items :nth-child(2) {
+    background: url(../img/img-pulau-bali.jpg) no-repeat;
+    background-size: cover;
+}
+
+.recomendasi_list__items :nth-child(3) {
+    background: url(../img/img-pulau-bali.jpg) no-repeat;
+    background-size: cover;
+}
+
+.recomendasi_list__items :nth-child(4) {
+    background: url(../img/img-pulau-bali.jpg) no-repeat;
+    background-size: cover;
+}*/
+
+.recomendasi_wrap__item {
+    width: 264px;
+    margin-top: 26px;
+    padding: 246px 27px 28px 27px;
+    border-radius: 8px;
+    background: url(../img/img-pulau-bali.jpg) no-repeat;
+    background-size: cover;
+}
+
+.recomendasi_wrap__item>h4 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+
+.recomendasi_wrap__item>p {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 15px;
+    color: #FFFFFF;
+}
